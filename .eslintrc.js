@@ -2,5 +2,9 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: ["prettier"],
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module',
+  },
+  extends: ['prettier'],
 };
