@@ -75,7 +75,8 @@ const styles = StyleSheet.create({
   memoListItem: {
     padding: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#fff',
+    borderBottomColor: '#ddd',
+    backgroundColor: '#fff',
   },
   memoTitle: {
     fontSize: 18,
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
     right: 0,
     height: 78,
     paddingTop: 30,
-    backgroundColor: '#2653366',
+    backgroundColor: '#265366',
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
